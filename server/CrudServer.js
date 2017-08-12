@@ -15,7 +15,7 @@ function init()
 	// create a default record
 
 	_webSocketServer = new ws.Server({
-		port: 1000
+		port: 5000
 	})
 	_webSocketServer.on("connection", onConnection);
 }
